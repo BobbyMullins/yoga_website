@@ -58,7 +58,24 @@
 .photo-section1 {
     border-top: 2px solid #25591f; 
     border-bottom: 2px solid #25591f;
+    min-height: 75vh;  
     
+}
+
+#quote1 {
+    margin-top: 5%; 
+    margin-bottom: 5%; 
+}
+
+.photo-section1 .col-md-3 {
+    margin-left: 4.16%; 
+    margin-right: 4.16%; 
+}
+
+.photo-section1 img {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    margin-top: 33%; 
+    margin-bottom: 10%
 }
 
 .btn-section2 {
@@ -66,6 +83,7 @@
     border: 2px solid #25591f; 
     border-radius: 0; 
     color: #25591f; 
+    width: 75%; 
 }
 
 .btn-section2:hover {
@@ -87,10 +105,30 @@
     color: #818c3c;
 }
 
+#learn_more:hover {
+    background-color: #818c3c; 
+    border: 2px solid #fff; 
+    color: #fff; 
+}
+
 /* Section 4 */
+
+#pagebreak {
+    margin-top: 5%; 
+}
+
+#pagebreak img {
+    margin-bottom: -1%; 
+}
 
 .new_to_yoga_section {
     background-color: #818c3c;
+    padding-bottom: 5%; 
+    width: 99.9%; 
+}
+
+.new_to_yoga_section h4 {
+    padding-top: 5%
 }
 
 .new_to_yoga_section h4, p {
@@ -98,11 +136,24 @@
 }
 
 .new_to_yoga_section p {
-    margin-left: 25%; 
+    margin: 2.5% 25%; 
     width: 50%
 }
 
 /* Mailing List */
+
+#mailing_list_header {
+    color: #25591f; 
+    margin-top: 5%; 
+}
+
+form {
+    border: 2px solid #25591f; 
+    margin: 2.5% 12.5%; 
+    padding-top: 2.5%; 
+    padding-bottom: 2.5%; 
+    width: 75%; 
+}
 
 #submit {
     background-color: white; 
@@ -116,3 +167,26 @@
     border: 2px solid #25591f; 
     color: #fff; 
 }
+
+/* Footer */
+
+#footer {
+    background-color: #818c3c; 
+    margin-top: 5%; 
+    min-height: 250px; 
+
+}
+
+.fa {
+    margin: 5% 1% 2.5% 1%; 
+/*
+    margin-top: 5%; 
+    margin-bottom: 2.5%; 
+*/
+    color: #fff; 
+}
+
+#footer h6 {
+    color: #fff; 
+}
+    
