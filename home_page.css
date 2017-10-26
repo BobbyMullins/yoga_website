@@ -1,0 +1,118 @@
+/* Navbar */
+.navbar {
+    background: none;
+    background-color: #25591f; 
+    border: none; 
+    border-radius: 0;
+    opacity: .5; 
+}
+
+.navbar-nav { 
+    display: block;
+    float:none;
+    margin:0 auto;
+    min-height: 125px; 
+    text-align: center;
+    
+}
+
+.navbar-nav>li {
+    display: inline-block;
+    float:none;
+    margin-bottom: 2px solid #fff; 
+}
+
+.navbar-default .navbar-nav>li>a {
+    border-bottom: 2px solid RGBA(0,0,0,0);
+    color: #fff; 
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    margin-top: 1.5em; 
+    opacity: 1; 
+}
+
+.navbar-nav>li>a:hover {
+    border-bottom: 2px solid #fff; 
+    color: #fff !important; 
+}
+
+
+/* Main Home Page Image */
+.main_landing {
+    background-image: url('Assets/yoga_home1.1-resized.png'); 
+    background-repeat: no-repeat; 
+    background-position: top center; 
+    background-size: cover; 
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+    height: 100vh; 
+}
+
+/* Section 2 */
+
+#quote1 {
+    color: #25591f;   
+}
+
+.photo-section1 {
+    border-top: 2px solid #25591f; 
+    border-bottom: 2px solid #25591f;
+    
+}
+
+.btn-section2 {
+    background-color: white; 
+    border: 2px solid #25591f; 
+    border-radius: 0; 
+    color: #25591f; 
+}
+
+.btn-section2:hover {
+    background-color: #25591f; 
+    border: 2px solid #25591f; 
+    color: #fff; 
+}
+
+.btn-default {
+    background-image: none; 
+}
+
+/* Section 3 */
+
+#learn_more {
+    background-color: #fff; 
+    border: 2px solid #fff; 
+    border-radius: 0; 
+    color: #818c3c;
+}
+
+/* Section 4 */
+
+.new_to_yoga_section {
+    background-color: #818c3c;
+}
+
+.new_to_yoga_section h4, p {
+    color: #fff; 
+}
+
+.new_to_yoga_section p {
+    margin-left: 25%; 
+    width: 50%
+}
+
+/* Mailing List */
+
+#submit {
+    background-color: white; 
+    border: 2px solid #25591f; 
+    border-radius: 0; 
+    color: #25591f; 
+}
+
+#submit:hover {
+    background-color: #25591f; 
+    border: 2px solid #25591f; 
+    color: #fff; 
+}
